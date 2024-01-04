@@ -1,0 +1,27 @@
+{
+  "name": "gemini-first-look",
+  "version": "1.0.1",
+  "description": "First look of Google Gemini AI API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "Gemini",
+    "Generative AI",
+    "Google AI API",
+    "Google AI"
+  ],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.1.3",
+    "@inquirer/input": "^1.2.14",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
