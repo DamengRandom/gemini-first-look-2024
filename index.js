@@ -5,7 +5,7 @@ import fs from "fs";
 
 const aiClassInstance = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
-class GeminiGenerativeAI {
+export class GeminiGenerativeAI {
   constructor(aiClassInstance) {
     this.aiClassInstance = aiClassInstance;
   }
